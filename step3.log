@@ -1,0 +1,1849 @@
+Superblocks and block group descriptor tables for good-fixed-1k.vdi:
+
+Superblock from block 0
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 21487
+Number of free inodes: 32175
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Mon Jan 18 14:28:11 2021
+Last write time: Mon Jan 18 14:30:29 2021
+Mount count: 2
+Max mount count: 65535
+Magic number: 0xef53
+State: 1
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:09:50 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 0
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Volume name: []
+Last mount point: [/media/csis/e4fbffca-0066-4bc1-abd9-09c867496c95]
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+
+Raw bytes from block 0 superblock:
+Offset: 0x0
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 7f 00 00 00 fc 01 00 66 19 00 00 ef 53 00 00|00|        f    S  |
+10|af 7d 00 00 01 00 00 00 00 00 00 00 00 00 00 00|10| }              |
+20|00 20 00 00 00 20 00 00 f0 07 00 00 4b e1 05 60|20|            K  `|
+30|d5 e1 05 60 02 00 ff ff 53 ef 01 00 01 00 00 00|30|   `    S       |
+40|fe dc 05 60 00 00 00 00 00 00 00 00 01 00 00 00|40|   `            |
+50|00 00 00 00 0b 00 00 00 80 00 00 00 38 00 00 00|50|            8   |
+60|02 00 00 00 03 00 00 00 e4 fb ff ca 00 66 4b c1|60|             fK |
+70|ab d9 09 c8 67 49 6c 95 00 00 00 00 00 00 00 00|70|    gIl         |
+80|00 00 00 00 00 00 00 00 2f 6d 65 64 69 61 2f 63|80|        /media/c|
+90|73 69 73 2f 65 34 66 62 66 66 63 61 2d 30 30 36|90|sis/e4fbffca-006|
+a0|36 2d 34 62 63 31 2d 61 62 64 39 2d 30 39 63 38|a0|6-4bc1-abd9-09c8|
+b0|36 37 34 39 36 63 39 35 00 00 00 00 00 00 00 00|b0|67496c95        |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 f4 71 bd c6|e0|             q  |
+f0|0e de 42 c6 b3 c2 8f 19 91 28 e8 78 01 00 00 00|f0|  B      ( x    |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x100
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|0c 00 00 00 00 00 00 00 fe dc 05 60 00 00 00 00|00|           `    |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 91 92 01 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x200
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x300
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  1520	  2019	   2
+     1	  8451	  8452	  8453	  1534	  2032	   0
+     2	 16385	 16386	 16387	  1997	  1904	  34
+     3	 24835	 24836	 24837	  2871	  1836	  60
+     4	 32769	 32770	 32771	   768	  2032	   0
+     5	 41219	 41220	 41221	  1534	  2032	   0
+     6	 49153	 49154	 49155	  1791	  2032	   0
+     7	 57603	 57604	 57605	  1279	  2032	   0
+     8	 65537	 65538	 65539	     0	  2032	   0
+     9	 73987	 73988	 73989	  1534	  2032	   0
+    10	 81921	 81922	 81923	   256	  2032	   0
+    11	 90113	 90114	 90115	  1024	  2032	   0
+    12	 98305	 98306	 98307	   772	  2032	   0
+    13	106497	106498	106499	  1792	  2032	   0
+    14	114689	114690	114691	  1792	  2032	   0
+    15	122881	122882	122883	  1023	  2032	   0
+
+
+Superblock from block 8192
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:09:50 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:09:50 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 1
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 8193
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 24576
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:09:50 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:09:50 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 3
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 24577
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 40960
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:09:50 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:09:50 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 5
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 40961
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 57344
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:09:50 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:09:50 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 7
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 57345
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 73728
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:09:50 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:09:50 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 9
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: e4fbffca-0066-4bc1-abd9-09c867496c95
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 73729
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock size: 1024
+
+Block group descriptor size: 32
+
+==============================================================================
+------------------------------------------------------------------------------
+==============================================================================
+
+Superblocks and block group descriptor tables for good-fixed-2k.vdi:
+
+Superblock from block 0
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 65024
+Number of reserved blocks: 3251
+Number of free blocks: 11263
+Number of free inodes: 32175
+First data block: 0
+Log block size: 1 (2048)
+Log fragment size: 1 (2048)
+Blocks per group: 16384
+Fragments per group: 16384
+Inodes per group: 8128
+Last mount time: Mon Jan 18 14:28:05 2021
+Last write time: Mon Jan 18 14:30:29 2021
+Mount count: 2
+Max mount count: 65535
+Magic number: 0xef53
+State: 1
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:12:39 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 0
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: b6b330c0-266f-4f8f-a726-f48289a0a6c3
+Volume name: []
+Last mount point: [/media/csis/b6b330c0-266f-4f8f-a726-f48289a0a6c3]
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: b6b330c0-266f-4f8f-a726-f48289a0a6c3
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+
+Raw bytes from block 0 superblock:
+Offset: 0x0
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 7f 00 00 00 fe 00 00 b3 0c 00 00 ff 2b 00 00|00|             +  |
+10|af 7d 00 00 00 00 00 00 01 00 00 00 01 00 00 00|10| }              |
+20|00 40 00 00 00 40 00 00 c0 1f 00 00 45 e1 05 60|20| @   @      E  `|
+30|d5 e1 05 60 02 00 ff ff 53 ef 01 00 01 00 00 00|30|   `    S       |
+40|a7 dd 05 60 00 00 00 00 00 00 00 00 01 00 00 00|40|   `            |
+50|00 00 00 00 0b 00 00 00 80 00 00 00 38 00 00 00|50|            8   |
+60|02 00 00 00 03 00 00 00 b6 b3 30 c0 26 6f 4f 8f|60|          0 &oO |
+70|a7 26 f4 82 89 a0 a6 c3 00 00 00 00 00 00 00 00|70| &              |
+80|00 00 00 00 00 00 00 00 2f 6d 65 64 69 61 2f 63|80|        /media/c|
+90|73 69 73 2f 62 36 62 33 33 30 63 30 2d 32 36 36|90|sis/b6b330c0-266|
+a0|66 2d 34 66 38 66 2d 61 37 32 36 2d 66 34 38 32|a0|f-4f8f-a726-f482|
+b0|38 39 61 30 61 36 63 33 00 00 00 00 00 00 00 00|b0|89a0a6c3        |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 3f 00|c0|              ? |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 23 71 cb be|e0|            #q  |
+f0|1e 85 47 59 8d 0e e3 ef ff 5a cc d9 01 00 00 00|f0|  GY     Z      |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x100
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|0c 00 00 00 00 00 00 00 a7 dd 05 60 00 00 00 00|00|           `    |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 34 93 01 00 00 00 00 00|70|        4       |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x200
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x300
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	    65	    66	    67	  4025	  8115	   2
+     1	 16449	 16450	 16451	  2691	  7804	  94
+     2	 32768	 32769	 32770	  1538	  8128	   0
+     3	 49217	 49218	 49219	  3009	  8128	   0
+
+
+Superblock from block 16384
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 65024
+Number of reserved blocks: 3251
+Number of free blocks: 62779
+Number of free inodes: 32501
+First data block: 0
+Log block size: 1 (2048)
+Log fragment size: 1 (2048)
+Blocks per group: 16384
+Fragments per group: 16384
+Inodes per group: 8128
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:12:39 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:12:39 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 1
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: b6b330c0-266f-4f8f-a726-f48289a0a6c3
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: b6b330c0-266f-4f8f-a726-f48289a0a6c3
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 16385
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	    65	    66	    67	 15799	  8117	   2
+     1	 16449	 16450	 16451	 15809	  8128	   0
+     2	 32768	 32769	 32770	 15874	  8128	   0
+     3	 49217	 49218	 49219	 15297	  8128	   0
+
+
+Superblock from block 49152
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 65024
+Number of reserved blocks: 3251
+Number of free blocks: 62779
+Number of free inodes: 32501
+First data block: 0
+Log block size: 1 (2048)
+Log fragment size: 1 (2048)
+Blocks per group: 16384
+Fragments per group: 16384
+Inodes per group: 8128
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:12:39 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:12:39 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 3
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: b6b330c0-266f-4f8f-a726-f48289a0a6c3
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: b6b330c0-266f-4f8f-a726-f48289a0a6c3
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 49153
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	    65	    66	    67	 15799	  8117	   2
+     1	 16449	 16450	 16451	 15809	  8128	   0
+     2	 32768	 32769	 32770	 15874	  8128	   0
+     3	 49217	 49218	 49219	 15297	  8128	   0
+
+
+Superblock size: 1024
+
+Block group descriptor size: 32
+
+==============================================================================
+------------------------------------------------------------------------------
+==============================================================================
+
+Superblocks and block group descriptor tables for good-fixed-4k.vdi:
+
+Superblock from block 0
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 32512
+Number of reserved blocks: 1625
+Number of free blocks: 5618
+Number of free inodes: 32175
+First data block: 0
+Log block size: 2 (4096)
+Log fragment size: 2 (4096)
+Blocks per group: 32768
+Fragments per group: 32768
+Inodes per group: 32512
+Last mount time: Mon Jan 18 14:28:03 2021
+Last write time: Mon Jan 18 14:30:29 2021
+Mount count: 2
+Max mount count: 65535
+Magic number: 0xef53
+State: 1
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:13:02 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 0
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: f6279c20-d585-4462-8630-cea99f2d3d2e
+Volume name: []
+Last mount point: [/media/csis/f6279c20-d585-4462-8630-cea99f2d3d2e]
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: f6279c20-d585-4462-8630-cea99f2d3d2e
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+
+Raw bytes from block 0 superblock:
+Offset: 0x0
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 7f 00 00 00 7f 00 00 59 06 00 00 f2 15 00 00|00|        Y       |
+10|af 7d 00 00 00 00 00 00 02 00 00 00 02 00 00 00|10| }              |
+20|00 80 00 00 00 80 00 00 00 7f 00 00 43 e1 05 60|20|            C  `|
+30|d5 e1 05 60 02 00 ff ff 53 ef 01 00 01 00 00 00|30|   `    S       |
+40|be dd 05 60 00 00 00 00 00 00 00 00 01 00 00 00|40|   `            |
+50|00 00 00 00 0b 00 00 00 80 00 00 00 38 00 00 00|50|            8   |
+60|02 00 00 00 03 00 00 00 f6 27 9c 20 d5 85 44 62|60|         '    Db|
+70|86 30 ce a9 9f 2d 3d 2e 00 00 00 00 00 00 00 00|70| 0   -=.        |
+80|00 00 00 00 00 00 00 00 2f 6d 65 64 69 61 2f 63|80|        /media/c|
+90|73 69 73 2f 66 36 32 37 39 63 32 30 2d 64 35 38|90|sis/f6279c20-d58|
+a0|35 2d 34 34 36 32 2d 38 36 33 30 2d 63 65 61 39|a0|5-4462-8630-cea9|
+b0|39 66 32 64 33 64 32 65 00 00 00 00 00 00 00 00|b0|9f2d3d2e        |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 07 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 56 c9 82 d6|e0|            V   |
+f0|cd 2b 42 ac a9 83 b8 e1 fc 82 cd 5b 01 00 00 00|f0| +B        [    |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x100
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|0c 00 00 00 00 00 00 00 be dd 05 60 00 00 00 00|00|           `    |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 e4 94 01 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x200
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x300
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	     9	    10	    11	  5618	 32175	  96
+
+
+Superblock size: 1024
+
+Block group descriptor size: 32
+
+==============================================================================
+------------------------------------------------------------------------------
+==============================================================================
+
+Superblocks and block group descriptor tables for good-dynamic-1k.vdi:
+
+Superblock from block 0
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 21487
+Number of free inodes: 32175
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Mon Jan 18 14:28:00 2021
+Last write time: Mon Jan 18 14:30:29 2021
+Mount count: 2
+Max mount count: 65535
+Magic number: 0xef53
+State: 1
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:10:04 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 0
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Volume name: []
+Last mount point: [/media/csis/3566c4a2-e7b3-45f7-9171-3a8df3edc762]
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+
+Raw bytes from block 0 superblock:
+Offset: 0x0
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 7f 00 00 00 fc 01 00 66 19 00 00 ef 53 00 00|00|        f    S  |
+10|af 7d 00 00 01 00 00 00 00 00 00 00 00 00 00 00|10| }              |
+20|00 20 00 00 00 20 00 00 f0 07 00 00 40 e1 05 60|20|            @  `|
+30|d5 e1 05 60 02 00 ff ff 53 ef 01 00 01 00 00 00|30|   `    S       |
+40|0c dd 05 60 00 00 00 00 00 00 00 00 01 00 00 00|40|   `            |
+50|00 00 00 00 0b 00 00 00 80 00 00 00 38 00 00 00|50|            8   |
+60|02 00 00 00 03 00 00 00 35 66 c4 a2 e7 b3 45 f7|60|        5f    E |
+70|91 71 3a 8d f3 ed c7 62 00 00 00 00 00 00 00 00|70| q:    b        |
+80|00 00 00 00 00 00 00 00 2f 6d 65 64 69 61 2f 63|80|        /media/c|
+90|73 69 73 2f 33 35 36 36 63 34 61 32 2d 65 37 62|90|sis/3566c4a2-e7b|
+a0|33 2d 34 35 66 37 2d 39 31 37 31 2d 33 61 38 64|a0|3-45f7-9171-3a8d|
+b0|66 33 65 64 63 37 36 32 00 00 00 00 00 00 00 00|b0|f3edc762        |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 fa 72 39 d4|e0|             r9 |
+f0|ae e0 4d 83 95 b5 6a 9c cc 93 6a 56 01 00 00 00|f0|  M   j   jV    |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x100
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|0c 00 00 00 00 00 00 00 0c dd 05 60 00 00 00 00|00|           `    |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 a2 92 01 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x200
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x300
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  1520	  2019	   2
+     1	  8451	  8452	  8453	  1534	  2032	   0
+     2	 16385	 16386	 16387	  1791	  2032	   0
+     3	 24835	 24836	 24837	  1279	  2032	   0
+     4	 32769	 32770	 32771	     0	  2032	   0
+     5	 41219	 41220	 41221	  1534	  2032	   0
+     6	 49153	 49154	 49155	   256	  2032	   0
+     7	 57603	 57604	 57605	   766	  2032	   0
+     8	 65537	 65538	 65539	   772	  2032	   0
+     9	 73987	 73988	 73989	  1534	  2032	   0
+    10	 81921	 81922	 81923	  1936	  1904	  34
+    11	 90113	 90114	 90115	  3190	  1841	  59
+    12	 98305	 98306	 98307	   768	  2027	   1
+    13	106497	106498	106499	  1792	  2032	   0
+    14	114689	114690	114691	  1792	  2032	   0
+    15	122881	122882	122883	  1023	  2032	   0
+
+
+Superblock from block 8192
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:10:04 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:10:04 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 1
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 8193
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 24576
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:10:04 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:10:04 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 3
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 24577
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 40960
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:10:04 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:10:04 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 5
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 40961
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 57344
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:10:04 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:10:04 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 7
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 57345
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock from block 73728
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 130048
+Number of reserved blocks: 6502
+Number of free blocks: 124389
+Number of free inodes: 32501
+First data block: 1
+Log block size: 0 (1024)
+Log fragment size: 0 (1024)
+Blocks per group: 8192
+Fragments per group: 8192
+Inodes per group: 2032
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:10:04 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:10:04 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 9
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 3566c4a2-e7b3-45f7-9171-3a8df3edc762
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 73729
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	   259	   260	   261	  7664	  2021	   2
+     1	  8451	  8452	  8453	  7678	  2032	   0
+     2	 16385	 16386	 16387	  7936	  2032	   0
+     3	 24835	 24836	 24837	  7678	  2032	   0
+     4	 32769	 32770	 32771	  7936	  2032	   0
+     5	 41219	 41220	 41221	  7678	  2032	   0
+     6	 49153	 49154	 49155	  7936	  2032	   0
+     7	 57603	 57604	 57605	  7678	  2032	   0
+     8	 65537	 65538	 65539	  7936	  2032	   0
+     9	 73987	 73988	 73989	  7678	  2032	   0
+    10	 81921	 81922	 81923	  7936	  2032	   0
+    11	 90113	 90114	 90115	  7936	  2032	   0
+    12	 98305	 98306	 98307	  7936	  2032	   0
+    13	106497	106498	106499	  7936	  2032	   0
+    14	114689	114690	114691	  7936	  2032	   0
+    15	122881	122882	122883	  6911	  2032	   0
+
+
+Superblock size: 1024
+
+Block group descriptor size: 32
+
+==============================================================================
+------------------------------------------------------------------------------
+==============================================================================
+
+Superblocks and block group descriptor tables for good-dynamic-2k.vdi:
+
+Superblock from block 0
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 65024
+Number of reserved blocks: 3251
+Number of free blocks: 11263
+Number of free inodes: 32175
+First data block: 0
+Log block size: 1 (2048)
+Log fragment size: 1 (2048)
+Blocks per group: 16384
+Fragments per group: 16384
+Inodes per group: 8128
+Last mount time: Mon Jan 18 14:27:58 2021
+Last write time: Mon Jan 18 14:30:29 2021
+Mount count: 2
+Max mount count: 65535
+Magic number: 0xef53
+State: 1
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:12:51 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 0
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 892a4485-0985-4cce-9b9a-29f238151c3a
+Volume name: []
+Last mount point: [/media/csis/892a4485-0985-4cce-9b9a-29f238151c3a]
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 892a4485-0985-4cce-9b9a-29f238151c3a
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+
+Raw bytes from block 0 superblock:
+Offset: 0x0
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 7f 00 00 00 fe 00 00 b3 0c 00 00 ff 2b 00 00|00|             +  |
+10|af 7d 00 00 00 00 00 00 01 00 00 00 01 00 00 00|10| }              |
+20|00 40 00 00 00 40 00 00 c0 1f 00 00 3e e1 05 60|20| @   @      >  `|
+30|d5 e1 05 60 02 00 ff ff 53 ef 01 00 01 00 00 00|30|   `    S       |
+40|b3 dd 05 60 00 00 00 00 00 00 00 00 01 00 00 00|40|   `            |
+50|00 00 00 00 0b 00 00 00 80 00 00 00 38 00 00 00|50|            8   |
+60|02 00 00 00 03 00 00 00 89 2a 44 85 09 85 4c ce|60|         *D   L |
+70|9b 9a 29 f2 38 15 1c 3a 00 00 00 00 00 00 00 00|70|  ) 8  :        |
+80|00 00 00 00 00 00 00 00 2f 6d 65 64 69 61 2f 63|80|        /media/c|
+90|73 69 73 2f 38 39 32 61 34 34 38 35 2d 30 39 38|90|sis/892a4485-098|
+a0|35 2d 34 63 63 65 2d 39 62 39 61 2d 32 39 66 32|a0|5-4cce-9b9a-29f2|
+b0|33 38 31 35 31 63 33 61 00 00 00 00 00 00 00 00|b0|38151c3a        |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 3f 00|c0|              ? |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 22 94 4b f3|e0|            " K |
+f0|cc d3 41 69 9b 2d 95 81 15 e2 6c 6d 01 00 00 00|f0|  Ai -    lm    |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x100
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|0c 00 00 00 00 00 00 00 b3 dd 05 60 00 00 00 00|00|           `    |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 22 93 01 00 00 00 00 00|70|        "       |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x200
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x300
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	    65	    66	    67	  4025	  8115	   2
+     1	 16449	 16450	 16451	  2691	  7804	  94
+     2	 32768	 32769	 32770	  1538	  8128	   0
+     3	 49217	 49218	 49219	  3009	  8128	   0
+
+
+Superblock from block 16384
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 65024
+Number of reserved blocks: 3251
+Number of free blocks: 62779
+Number of free inodes: 32501
+First data block: 0
+Log block size: 1 (2048)
+Log fragment size: 1 (2048)
+Blocks per group: 16384
+Fragments per group: 16384
+Inodes per group: 8128
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:12:51 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:12:51 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 1
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 892a4485-0985-4cce-9b9a-29f238151c3a
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 892a4485-0985-4cce-9b9a-29f238151c3a
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 16385
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	    65	    66	    67	 15799	  8117	   2
+     1	 16449	 16450	 16451	 15809	  8128	   0
+     2	 32768	 32769	 32770	 15874	  8128	   0
+     3	 49217	 49218	 49219	 15297	  8128	   0
+
+
+Superblock from block 49152
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 65024
+Number of reserved blocks: 3251
+Number of free blocks: 62779
+Number of free inodes: 32501
+First data block: 0
+Log block size: 1 (2048)
+Log fragment size: 1 (2048)
+Blocks per group: 16384
+Fragments per group: 16384
+Inodes per group: 8128
+Last mount time: Wed Dec 31 19:00:00 1969
+Last write time: Mon Jan 18 14:12:51 2021
+Mount count: 0
+Max mount count: 65535
+Magic number: 0xef53
+State: 0
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:12:51 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 3
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: 892a4485-0985-4cce-9b9a-29f238151c3a
+Volume name: []
+Last mount point: []
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: 892a4485-0985-4cce-9b9a-29f238151c3a
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+Block group descriptor table from block 49153
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	    65	    66	    67	 15799	  8117	   2
+     1	 16449	 16450	 16451	 15809	  8128	   0
+     2	 32768	 32769	 32770	 15874	  8128	   0
+     3	 49217	 49218	 49219	 15297	  8128	   0
+
+
+Superblock size: 1024
+
+Block group descriptor size: 32
+
+==============================================================================
+------------------------------------------------------------------------------
+==============================================================================
+
+Superblocks and block group descriptor tables for good-dynamic-4k.vdi:
+
+Superblock from block 0
+Superblock contents:
+Number of inodes: 32512
+Number of blocks: 32512
+Number of reserved blocks: 1625
+Number of free blocks: 5618
+Number of free inodes: 32175
+First data block: 0
+Log block size: 2 (4096)
+Log fragment size: 2 (4096)
+Blocks per group: 32768
+Fragments per group: 32768
+Inodes per group: 32512
+Last mount time: Mon Jan 18 14:27:55 2021
+Last write time: Mon Jan 18 14:30:29 2021
+Mount count: 2
+Max mount count: 65535
+Magic number: 0xef53
+State: 1
+Error processing: 1
+Revision level: 1.0
+Last system check: Mon Jan 18 14:13:11 2021
+Check interval: 0
+OS creator: 0
+Default reserve UID: 0
+Default reserve GID: 0
+First inode number: 11
+Inode size: 128
+Block group number: 0
+Feature compatibility bits: 0x00000038
+Feature incompatibility bits: 0x00000002
+Feature read/only compatibility bits: 0x00000003
+UUID: e47c2dd1-2241-41d0-8f53-bb9e9cae8081
+Volume name: []
+Last mount point: [/media/csis/e47c2dd1-2241-41d0-8f53-bb9e9cae8081]
+Algorithm bitmap: 0x00000000
+Number of blocks to preallocate: 0
+Number of blocks to preallocate for directories: 0
+Journal UUID: e47c2dd1-2241-41d0-8f53-bb9e9cae8081
+Journal inode number: 0
+Journal device number: 0
+Journal last orphan inode number: 0
+Default hash version: 1
+Default mount option bitmap: 0x0000000c
+First meta block group: 0
+
+
+Raw bytes from block 0 superblock:
+Offset: 0x0
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 7f 00 00 00 7f 00 00 59 06 00 00 f2 15 00 00|00|        Y       |
+10|af 7d 00 00 00 00 00 00 02 00 00 00 02 00 00 00|10| }              |
+20|00 80 00 00 00 80 00 00 00 7f 00 00 3b e1 05 60|20|            ;  `|
+30|d5 e1 05 60 02 00 ff ff 53 ef 01 00 01 00 00 00|30|   `    S       |
+40|c7 dd 05 60 00 00 00 00 00 00 00 00 01 00 00 00|40|   `            |
+50|00 00 00 00 0b 00 00 00 80 00 00 00 38 00 00 00|50|            8   |
+60|02 00 00 00 03 00 00 00 e4 7c 2d d1 22 41 41 d0|60|         |- "AA |
+70|8f 53 bb 9e 9c ae 80 81 00 00 00 00 00 00 00 00|70| S              |
+80|00 00 00 00 00 00 00 00 2f 6d 65 64 69 61 2f 63|80|        /media/c|
+90|73 69 73 2f 65 34 37 63 32 64 64 31 2d 32 32 34|90|sis/e47c2dd1-224|
+a0|31 2d 34 31 64 30 2d 38 66 35 33 2d 62 62 39 65|a0|1-41d0-8f53-bb9e|
+b0|39 63 61 65 38 30 38 31 00 00 00 00 00 00 00 00|b0|9cae8081        |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 07 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 ca 49 ee 9e|e0|             I  |
+f0|8a 53 4c ec 9b cc 62 e8 49 63 c6 e3 01 00 00 00|f0| SL   b Ic      |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x100
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|0c 00 00 00 00 00 00 00 c7 dd 05 60 00 00 00 00|00|           `    |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 04 95 01 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x200
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+Offset: 0x300
+   00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f    0...4...8...c...
+  +-----------------------------------------------+  +----------------+
+00|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|00|                |
+10|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|10|                |
+20|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|20|                |
+30|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|30|                |
+40|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|40|                |
+50|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|50|                |
+60|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|60|                |
+70|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|70|                |
+80|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|80|                |
+90|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|90|                |
+a0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|a0|                |
+b0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|b0|                |
+c0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|c0|                |
+d0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|d0|                |
+e0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|e0|                |
+f0|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00|f0|                |
+  +-----------------------------------------------+  +----------------+
+
+
+Block group descriptor table:
+Block	Block	Inode	Inode	Free	Free	Used
+Number	Bitmap	Bitmap	Table	Blocks	Inodes	Dirs
+------	------	------	-----	------	------	----
+     0	     9	    10	    11	  5618	 32175	  96
+
+
+Superblock size: 1024
+
+Block group descriptor size: 32
